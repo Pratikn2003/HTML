@@ -1,0 +1,4 @@
+Application name	music webapp
+API key	a9733b4ebd210164456c34a6a9a85850
+Shared secret	056cf56b8a726b3c70e17435a21e3522
+Registered to	PRATIK-2003
