@@ -19,21 +19,17 @@ nav ul{
     list-style-type: none;
     height: 65px;
     background-color: black;
-    color: rgb(76, 48, 48);
+    color: white;
 }
 
-nav ul li
-{
-       
-        padding: 10px;
-       
-            }
-    
-
+nav ul li{
+    padding: 0 12px;
+}
 .brand img{
     width: 44px;
-        padding: 0 8px;}
-  
+    padding: 0 8px;
+}
+
 .brand {
     display: flex;
     align-items: center;
@@ -48,7 +44,7 @@ nav ul li
    font-family: 'Varela Round', sans-serif;
    display: flex;
    margin: 23px auto;
-   width: 75%;
+   width: 70%;
    border-radius: 12px;
    padding: 34px;
    background-image: url('guiter3.jpeg');
@@ -67,8 +63,7 @@ nav ul li
 }
 
 .icons{
-    margin-top: 12px; 
-    color:rgb(127, 127, 211);
+    margin-top: 14px; 
 }
 .icons i{
     cursor: pointer;
@@ -84,9 +79,9 @@ nav ul li
 }
 
 .songItem{
-    height: 40px;
+    height: 50px;
     display: flex;
-    background-color: rgb(168, 147, 147);
+    background-color: white;
     
     color: black;
     margin: 12px 0;
@@ -96,9 +91,9 @@ nav ul li
 }
 
 .songItem img{
-    width: 40px;
+    width: 43px;
     margin: 0 23px;
-    border-radius: 30px;
+    border-radius: 34px;
 }
 
 .timestamp{
@@ -119,96 +114,9 @@ nav ul li
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .album-cover img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .album-info h1 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  
-  .album-info p {
-    margin: 0;
-  }
-  
-  .tracklist h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  ol {
-    padding-left: 20px;
-  }
-  
 
 @media only screen and (max-width: 1100px) {
     body {
       background-color: red;
     }
   }
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-
-.music-player {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.music-player img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.playlist ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.playlist li {
-    margin-bottom: 5px;
-    cursor: pointer;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
