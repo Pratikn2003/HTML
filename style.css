@@ -42,13 +42,13 @@ nav ul li
 }
 
 .container{
-    min-height: 50vh;
+    min-height: 72vh;
     background-color: black;
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
    margin: 23px auto;
-   width: 80%;
+   width: 75%;
    border-radius: 12px;
    padding: 34px;
    background-image: url('guiter3.jpeg');
