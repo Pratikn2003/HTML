@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "song 1", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "song 2", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "song 3", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "song 4", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "song 0", filePath: "songs/0.mp3", coverPath: "covers/1.jpg"},
+    {songName: "song 1", filePath: "songs/1.mp3", coverPath: "covers/2.jpg"},
+    {songName: "song 2", filePath: "songs/2.mp3", coverPath: "covers/3.jpg"},
+    {songName: "song 3", filePath: "songs/3.mp3", coverPath: "covers/4.jpg"},
+    {songName: "song 4", filePath: "songs/4.mp3", coverPath: "covers/5.jpg"},
     {songName: "song 5", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "song 6", filePath: "songs/6.mp3", coverPath: "covers/5.jpg"},
-    {songName: "song 7", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "song 8", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "song 9", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "HEART-BEAT", filePath: "songs/10.mp3", coverPath: "covers/1.jpg"},
+    {songName: "song 6", filePath: "songs/6.mp3", coverPath: "covers/7.jpg"},
+    {songName: "song 7", filePath: "songs/7.mp3", coverPath: "covers/8.jpg"},
+    {songName: "song 8", filePath: "songs/8.mp3", coverPath: "covers/9.jpg"},
+    {songName: "song 9", filePath: "songs/9.mp3", coverPath: "covers/1.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -89,7 +89,7 @@ document.getElementById('next').addEventListener('click', ()=>{
     audioElement.currentTime = 0;
     audioElement.play();
     masterPlay.classList.remove('fa-play-circle');
-    masterPlay.classList.add('fa-pause-circle');
+    masterPlay.classList.add('fa-pause-circle');    
 
 })
 
