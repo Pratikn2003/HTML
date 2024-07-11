@@ -1,7 +1,7 @@
 console.log("Welcome to PRO MUSIC");
 
 // Initialize the Variables
-let songIndex = 1;
+let songIndex = 0;
 let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
@@ -24,7 +24,7 @@ let songs = [
 
 songItems.forEach((element, i)=>{ 
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
-    element.getElementsByClassName("songName")[1].innerText = songs[i].songName; 
+    element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
 })
  
 
