@@ -26,7 +26,7 @@ nav ul li{
     padding: 0 12px;
 }
 .brand img{
-    width: 44px;
+    width: 34px;
     padding: 0 8px;
 }
 
@@ -38,7 +38,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 70vh;
+    min-height: 60vh;
     background-color: black;
     color: white;
    font-family: 'Varela Round', sans-serif;
@@ -47,7 +47,7 @@ nav ul li{
    width: 50%;
    border-radius: 12px;
    padding: 34px;
-   background-image: url('TITHI.jpg');
+   background-image: url('MUSIC.jpg');
 }
 
 .bottom{
